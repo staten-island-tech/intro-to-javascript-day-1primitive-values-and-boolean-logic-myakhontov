@@ -1,4 +1,5 @@
-let string = "strings" ;    //variable declaration, after = definitions
+////////////////////////////strings
+/*let string = "strings" ;    //variable declaration, after = definitions
 let sentence = "Hello " + "Junshen";
 let sentence2 = + " and Emu";
 //console.log(sentence + sentence2);
@@ -44,7 +45,47 @@ if(school === "Elementary"){
 }
 
 let ron = "Ron";
-console.log(ron !== "Ema");
+console.log(ron !== "Ema"); */+
+
+/////////////////Formative Assessment: stoplight
+
+/*let stopLight = "orange";
+
+if(stopLight === "green"){
+    console.log("GO");
+} else if(stopLight === "yellow"){
+    console.log("CAUTION");
+} else if(stopLight === "red"){
+    console.log("STOP");
+} else{
+    console.log("that aint a stoplight color :/");
+}; */
 
 
+////////////////////FA: Milk
 
+/*let kristy = "tol";
+let bao = "tol";
+
+if(kristy === "intol" && bao === "intol"){
+    console.log("almond milk for both");
+} else if(kristy === "intol" || bao === "intol"){
+    console.log("one milk, one almond milk");
+} else{
+    console.log("both milk :)")
+} */
+
+//////////////////FA: cupcake
+
+/*
+let temp = 76;
+
+if(temp < 68){
+    console.log("too cold!");
+} else if(temp >= 68 && temp<=72){
+    console.log("perfect!");
+} else if(temp >= 73 && temp<=76){
+    console.log("warm!");
+} else{
+    console.log("too hot!");
+}  */
