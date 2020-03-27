@@ -45,7 +45,7 @@ if(school === "Elementary"){
 }
 
 let ron = "Ron";
-console.log(ron !== "Ema"); */+
+console.log(ron !== "Ema"); */
 
 /////////////////Formative Assessment: stoplight
 
@@ -89,3 +89,80 @@ if(temp < 68){
 } else{
     console.log("too hot!");
 }  */
+
+//////////////////////////////////////DAY 2
+
+/////////////////// Functions
+
+/*function test() {
+    console.log("TEST")
+}
+test();*/
+
+/*function argument(argument) {
+    console.log(argument);
+}
+argument("argument");*/
+
+/*const  add = function(x,y ){
+    return x+y; //immediatly ends function
+}
+console.log(add(10,3))*/
+
+/*const hello = function(){
+    alert("hello");
+};
+hello();
+const bye = function(){
+    alert("bye");
+};
+
+const beatles = function(){
+    hello();
+    bye();
+    hello();
+    bye();
+};
+beatles();*/
+
+/*function hello(){
+    const name = "Sarah"
+    function displayName(){
+        alert(name)
+    }
+    return displayName()
+}
+
+hello()
+*/
+////////////////////////scope
+/* const name = "michael y" //global space
+function makeFunc(){
+    const name= "sarah"   //function scope
+    function displayName(){
+        console.log(name) //reaches up for local name, if none then global
+    }
+     return displayName //cant call and return
+}
+const myFunc = makeFunc()  //closure
+myFunc()// no more makeFunc available bc youre returning it
+ */
+
+////////////////////////////arrays
+const names = ["diego", "frid", "christian",
+"val", "haoran"]
+
+//names.push("caroline")
+//names.unshift("brian")
+names.forEach(name => console.log(name)) // =>immediately returned
+//some = is there some representation, returns true or false
+
+//////////////spread operator
+
+const numbers = [1,2,3]
+
+const add = function(x, y, z){
+    return x+y+z
+}
+
+console.log(add(...numbers)) //pass every el in array with ...
