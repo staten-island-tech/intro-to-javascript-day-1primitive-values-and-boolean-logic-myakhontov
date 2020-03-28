@@ -149,6 +149,7 @@ myFunc()// no more makeFunc available bc youre returning it
  */
 
 ////////////////////////////arrays
+/*
 const names = ["diego", "frid", "christian",
 "val", "haoran"]
 
@@ -165,4 +166,32 @@ const add = function(x, y, z){
     return x+y+z
 }
 
-console.log(add(...numbers)) //pass every el in array with ...
+console.log(add(...numbers)) //pass every el in array with ... */
+
+////////////////////////////////////// DAY 2 CHALLENGES
+
+///////////////////////filter out less than 5 characters
+/*
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+
+let result = students.filter(student => student.length > 4)
+console.log(result) //kids w less than 5 are removed */
+
+////////////////////////check for inclusion
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+//console.log(students.includes("Junshen")) //false
+
+function check(array, value){
+    return array.some(student => student === value)
+}
+
+const checkAlan = check(students, "Alan")
+const checkSavva = check(students, "Savva")
+
+console.log(checkAlan + checkSavva) //1, so truthy
+
+
+
